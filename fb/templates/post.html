@@ -1,0 +1,84 @@
+{% extends 'layout.html' %}
+{% block body %}
+										<!-- <div class="well"> 
+										   <form class="form">
+											<h4>Sign-up</h4>
+											<div class="input-group text-center">
+											<input class="form-control input-lg" placeholder="Enter your email address" type="text">
+											  <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
+											</div>
+										  </form>
+										</div> -->
+
+
+<div class="well"> 
+   <form action="/post/<string:posts_slug>"  method="post" class="form-horizontal" enctype='multipart/form-data' role="form" >
+   
+		<h4>Add New Post</h4>
+
+		<div class="form-group" style="padding:14px;">
+		  <input type="name" name = "name" id = "name" class="form-control" placeholder="your name" >
+		  <!-- <hr></hr>
+		  <input type="slug" name = "slug" id = "slug" class="form-control" placeholder="slug" >	 -->  
+		  <hr></hr>
+		  <input type="subject" name = "subject" id = "subject" class="form-control" placeholder="thoughts" >
+		  <hr></hr>
+		  <input class="btn btn-primary pull-right" type="submit" name="update"/>
+		  <input class="btn btn-primary" type="file" name="file1">
+		  
+		</div>
+	</form>
+
+</div>
+
+<div class="panel panel-default">
+
+		
+		<!-- <div>
+			{% for j in data %}
+			<div class="panel panel-default">
+
+				<div class="panel-heading"><th>{{j[1]}}</th>
+				<div class="pull-right"><th>time : {{j[5]}}</th></div>
+				</div>
+				
+				<div><th>{{j[3]}}</th></div>
+
+				{% for i in imagelist %}
+				<div><th>{{i}}</th></div>
+				<div><img src = "{{ url_for('static', filename=i) }}"></div>
+				{% endfor %}
+				
+			</div>
+			{% endfor %} 
+		</div>	 -->
+
+	<!-- {% for j in data %}
+	<div>{{j[1]}} {{j[5]}}</div>
+	<div>{{j[3]}}</div>	
+
+	<div>
+	{% for i in imagelist %}
+	<div><img src = "{{ url_for('static', filename=i) }}"></div>
+	{% endfor %}
+
+	</div>
+
+	<hr>
+	<hr>
+	{% endfor %} -->
+
+	{% for j in data %} 
+	<div>{{j[1]}} {{j[5]}}</div>
+	<div>{{j[3]}}</div>
+	{% endfor %}
+
+	<!-- {% for i in imagelist %}
+	<div><img src = "{{ url_for('static', filename=i) }}"></div>
+	{% endfor %} -->
+	
+			
+</div>
+
+		
+{% endblock %}

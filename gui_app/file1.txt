@@ -1,0 +1,4 @@
+dharm,21,male,student,yes,dharm3059@gmail.comded,21,male,student,yes,c
+dhar,21,male,student,yes,22
+dwnd,21,male,student,yes,e2
+ewe,0,male,,no,
