@@ -1,0 +1,26 @@
+How much data do large corporations manage? Tons of it. 
+Referring to "tons" of data may be intuitive for paper records, 
+but it's an unusual way to describe computer-stored information, 
+which is usually measured by character counts and file sizes. 
+Still, using ton may give an added sense of how much data a terabyte is. 
+To be sure, measuring data by the ton isn't definitive because a disk drive's 
+weight doesn't vary significantly over a wide range of storage capacities, but it's
+ a handy starting point. A common 8GB hard drive weighs a little more than 1 lb. 
+ Figure that the weight of a shared enclosure, power supply and electronics will 
+ roughly double the drive's weight, and we can say that 8TB of data is approximately 
+ equivalent to 1 ton. That much storage is cumbersome and ungainly.
+
+How does an enterprise deal gracefully and effectively with such unwieldy mountains of 
+information? We asked four data-intensive companies - Aetna Inc., The Boeing Co.,
+ Atos Origin and AT&T Corp. - to tell us about the problems they faced in managing 
+ massive data stores, and how they solved them. For each company, the data is a 
+ significant corporate asset resulting from huge investments of time and effort. 
+ The data is also the source of many trials and tribulations for the employees who keep
+  vigilant watch over it.
+
+While these companies say that good tools are important for managing terabytes of 
+information, their IT and database administrators also agree that having a
+ clear and comprehensive perspective on the data, via both logical and physical views, 
+ is even more critical. Security, data integrity and data availability aren't 
+ trivial concerns, they point out, and giving users easy access to the data is a 
+ never-ending job.
